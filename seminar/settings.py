@@ -35,7 +35,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','port-0-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app']
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES' : (
@@ -72,6 +72,7 @@ MIDDLEWARE = [
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:3000', 
     'http://localhost:3000',
+    'https://port-0-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app/',
 ]
 
 CORS_ALLOWED_ORIGINS = [
