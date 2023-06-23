@@ -18,7 +18,7 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: wngus0223/snulion-week12
+          project: wngus0223/snulion_week12_django
           stage: main
           yaml: >
             name: snulion-week12
