@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -72,12 +73,14 @@ MIDDLEWARE = [
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:3000', 
     'http://localhost:3000',
-    'https://port-0-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app/',
+    'https://web-0-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app/',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:3000', 
     'http://localhost:3000',
+    'https://port-0-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app/',
+    'https://web-snulion-week12-dihik2mlj8233z6.sel4.cloudtype.app/'
 ]
 
 CORS_ALLOW_CREDENTIALS = True 
